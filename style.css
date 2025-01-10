@@ -1,0 +1,89 @@
+body{
+  overflow-x: hidden;
+  height: 100%;
+  background: scroll;
+  background-color: #FAFFC5;
+}
+@media(max-width:700px){
+  .gallery{
+    display: inline-flex;
+    gap: 5em;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30%;
+}
+.items{
+  margin: 0%;
+  border: black solid 5px;
+}
+img{
+  height: auto;
+  width: 20em;
+  aspect-ratio: 10/8;
+  background-color: rgb(43, 38, 38);
+  padding: 0%;
+  margin:0%;
+  border-radius: 55%;
+  object-fit:cover;
+}
+}
+.footer {
+  text-align: center;
+  padding: 7px;
+  background-color: #333;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.gallery{
+    display: inline-flex;
+    gap: 5em;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 30%;
+}
+.items{
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0%;
+  border: black solid 5px;
+}
+div[class="Cart"]{
+  height: auto;
+  margin: 1em;
+  padding: 0pt;
+  align-self: center;
+  border: rgb(0, 0, 0) solid 2px;
+  border-radius: 2em;
+  background-color: rgb(17, 88, 17);
+
+}
+div[class="Cart"]>p{
+  margin: 4%;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  font-family:"DM Serif Text", serif;
+}
+div[class="Buy"]>p{
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: green;
+  margin: 1em;
+
+}
+img{
+  height: auto;
+  width: 20rem;
+  aspect-ratio: 10/8;
+  background-color: #171616;
+  margin:0%;
+  border-radius: 5rem;
+  padding: 0%;
+  object-fit:contain;
+}
